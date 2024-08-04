@@ -33,6 +33,25 @@ This is a step-by-step tutorial on how to create a simple frontend website, deve
    - Use Viem to interact with the deployed smart contract.
    - Implement JavaScript functions to call the smart contract methods from the frontend.
 
+#### Solidity Smart Contract
+
+The Solidity smart contract for this tutorial is located in the `contracts` directory. Here’s how you can use Remix to deploy and interact with it:
+
+1. **Open Remix IDE**: Go to [Remix Ethereum IDE](https://remix.ethereum.org/).
+
+2. **Create a New File**: In Remix, create a new file named `MyContract.sol` and paste the contents of the `contracts/MyContract.sol` file into it.
+
+3. **Compile the Contract**: Use the Solidity compiler in Remix to compile the contract. Ensure that you select the appropriate compiler version (e.g., 0.8.x).
+
+4. **Deploy the Contract**:
+   - Switch to the **Deploy & Run Transactions** tab in Remix.
+   - Choose an environment (e.g., Injected Web3 for MetaMask).
+   - Deploy the contract by specifying the constructor arguments if necessary.
+
+5. **Interact with the Contract**:
+   - Use the Remix interface to call functions on your deployed contract.
+   - Update the state of the contract using the `setMessage` function or retrieve information with `getMessage`.
+
 #### Getting Started
 
 To get started with this exercise, follow the step-by-step instructions provided in the tutorial files located in the `freshman/build-your-first-app-on-ethereum/first-dapp` directory.
@@ -48,10 +67,10 @@ Before starting this tutorial, ensure you have the following installed:
 #### Usage
 
 1. Clone this repository:
-```bash
+   ```bash
    git clone https://github.com/YohanGH/LearnWeb3.git
    cd LearnWeb3/freshman/build-your-first-app-on-ethereum/first-dapp
-```
+   ```
 2. Open the index.html file in a browser to view the web page.
 3. Follow the instructions in the tutorial to deploy the smart contract and connect it to the web page.
 
