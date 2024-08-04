@@ -1,0 +1,9 @@
+{
+  "types": "module",
+  "dependencies": {
+    "viem": "^2.18.8"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
