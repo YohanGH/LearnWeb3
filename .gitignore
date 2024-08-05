@@ -6,7 +6,7 @@
 #    By: YohanGH <YohanGH@proton.me>                    //    ''     Code      #
 #                                                      (|     | )              #
 #    Created: 2024/02/02 17:20:35 by YohanGH           '__   _/_               #
-#    Updated: 2024/08/04 21:28:47 by YohanGH          (___)=(___)              #
+#    Updated: 2024/08/05 09:58:11 by YohanGH          (___)=(___)              #
 #                                                                              #
 # **************************************************************************** #
 
@@ -73,3 +73,9 @@ yarn-error.log*
 *.pyc
 __pycache__/
 
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
